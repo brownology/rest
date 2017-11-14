@@ -6,22 +6,22 @@ const bodyparser = require('body-parser');
 const users = [
 	{
         "id": 1,
-        "name": "Jourdan",
-        "age": 11
+        "name": "Jordan",
+        "age": 54
     },
     {
         "id": 2,
-        "name": "Shawn",
-        "age": 44
+        "name": "Walter",
+        "age": 64
     },
     {
         "id": 3,
-        "name": "Claudia",
+        "name": "Susie",
         "age": 45
     },
     {
         "id": 4,
-        "name": "Ethan",
+        "name": "Marge",
         "age": 18
     }
 ];
