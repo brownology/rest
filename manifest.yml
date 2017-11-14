@@ -1,0 +1,9 @@
+---
+applications:
+- name: rest
+  buildpack: nodejs_buildpack
+  command: node index.js
+  memory: 512M
+  instances: 1
+  env:
+    NODE_ENV: dev
