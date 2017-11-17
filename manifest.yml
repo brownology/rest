@@ -7,3 +7,6 @@ applications:
   instances: 1
   env:
     NODE_ENV: dev
+    #proxy settings are require if node_modules is excluded from cf push
+    http_proxy: http://proxy.inbcu.com:80
+    https_proxy: http://proxy.inbcu.com:80
